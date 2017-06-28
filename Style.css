@@ -1,0 +1,138 @@
+/*Styling Applied Throughout Website*/
+
+html {
+	background-color: #dfe3ee;
+}
+
+header {
+	background-color: #444ba0;
+	border: 2px solid black;
+}
+
+header > h1, header > p {
+	color: white;
+	font-size: 14pt;
+	padding: 5px;
+}
+
+header > h1 {
+	padding-top: 10px;
+	font-family: Helvetica, sans-Serif;
+	font-size: 30px;
+}
+
+header > a {
+	color: white;
+	padding: 5px;
+	display: block;
+	margin-top: 10px;
+	text-decoration: none;
+}
+
+header > a:hover {
+	color: red;
+}
+
+.linkbar {
+	float:right;
+	margin-top: 20px;
+	margin-right:30px;
+	width: 300px;
+	height: 90%;
+	background-color: #E1C304;
+	padding: 10px;
+}
+
+.linkbar > a {
+	display: block;
+	font-size: 14px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	text-decoration: none;
+	padding: 2px;
+	border: 1px solid black;
+	text-align: center;
+}
+
+.linkbar > a:hover {
+	background: #dfe3ee;
+}
+
+
+.viewbar {
+	margin-top: 20px;
+	margin-right:30px;
+	width: 10%;
+	background-color: #E1C304;
+	padding: 10px;
+	display: block;
+	padding: 10px;
+}
+
+.viewbar > a {
+	display: block;
+	font-size: 14px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	text-decoration: none;
+	padding: 2px;
+	border: 1px solid black;
+	text-align: center;
+	width: 80%;
+	margin: 10px 10px;
+	padding: 2px;
+}
+
+.viewbar > a:hover {
+	background: #dfe3ee;
+}
+
+.currentview {
+	display: inline;
+}
+
+.personview {
+	margin-top: 50px;
+	margin-left: 20px;
+}
+
+.helpsection {
+	margin: 5px;
+	width: 50%;
+	height: auto; 
+	text-align: center;
+}
+
+.helpsection > a {
+	font-family: Georgia, Serif;
+	color: #6699ff;
+	text-decoration: underline;
+}
+
+.helpsection > p {
+	text-align: left;
+	margin-left: 5px;
+	font-family: Georgia, Serif;
+	font-size: 15px;
+}
+
+.helpsection > img {
+	border: 1px solid black;
+}
+
+table { border-collapse: collapse; margin-top: 10px;} /*collapse or  separate*/
+table th, td { border: 1px solid black; font-size: 16px; }
+table th {background-color: #E1C304; padding: 10px 3px;}
+table td { padding: 0px 3px; font-family: Georgia, serif}
+
+textarea {
+    resize: none;
+}
+
+input {
+	display: block;
+	margin: 10px;
+}
+
+input#status1 {
+	font-size: 10px;
+	display: inline-block;
+}
